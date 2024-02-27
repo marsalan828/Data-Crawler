@@ -7,7 +7,8 @@
     <title>IFrame Crawler</title>
 </head>
 <body>
-    <iframe src="https://blog.apify.com/" style="height: 500px; width:500px; "></iframe>
+    <iframe src="https://besthf.com/best/Furniture/Chairs" style="height: 500px; width:500px; "></iframe>
+    {{-- <iframe src="https://blog.apify.com/" style="height: 500px; width:500px; "></iframe> --}}
     <form action="{{ route('crawl')}}" method="POST">
     @csrf
     <button type="submit">Crawl Data</button>
